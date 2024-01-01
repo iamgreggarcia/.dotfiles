@@ -1,0 +1,22 @@
+# General
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Neovim (LazyVim)
+/nvim/lazy-lock.json    # LazyVim lock file
+/nvim/.netrwhist
+/nvim/.undo/
+/nvim/.backup/
+/nvim/.swp/
+/nvim/.session/
+/nvim/.viminfo
+
+# tmux
+/tmux/plugins/       # TPM plugins
+/tmux/resurrect/     # tmux-resurrect saved sessions
+/tmux/continuum/     # tmux-continuum backup files
+/tmux/.tmux.conf.local  # Local tmux configuration
+
+# zsh
